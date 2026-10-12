@@ -1,0 +1,15 @@
+{
+  "name": "materials360",
+  "version": "2.0.0",
+  "private": true,
+  "description": "TL tabanlı malzeme mühendisliği ve teknik satış masaüstü platformu",
+  "main": "desktop/main.js",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node scripts/launch.js",
+    "demo": "node scripts/launch.js --demo",
+    "test": "node --test test.js integration.test.js",
+    "server": "node server-v2.js"
+  },
+  "devDependencies": { "electron": "44.4.5" }
+}
